@@ -1,0 +1,82 @@
+
+/*#loadMoreButton {*/
+/*    -fx-background-color: #4CAF50;*/
+/*    -fx-text-fill: white;*/
+/*    -fx-min-width: 200;*/
+/*}*/
+
+/*.movie-card {*/
+/*    -fx-background-color: #3E2723;*/
+/*    -fx-border-color: #795548;*/
+/*    -fx-border-width: 2;*/
+/*    -fx-border-radius: 5;*/
+/*}*/
+
+/*.movie-card Label {*/
+/*    -fx-text-fill: white;*/
+/*}*/
+
+/*#quit {*/
+/*    -fx-background-color: #f34242;*/
+/*    -fx-text-fill: white;*/
+/*    -fx-min-width: 200;*/
+/*}*/
+/* movies_list.css */
+
+/* movies_list.css */
+
+#searchField {
+    -fx-padding: 10px;
+    -fx-background-color: #2C3E50; /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 16; /* Font size */
+    -fx-border-color: #34495E; /* Border color */
+    -fx-border-width: 2;
+    -fx-border-radius: 5; /* Border radius for curved corners */
+    -fx-prompt-text-fill: #7F8C8D; /* Prompt (placeholder) text color */
+}
+
+#searchField:hover {
+    -fx-border-color: #2C3E50; /* Change border color on hover */
+}
+
+#searchField:focused {
+    -fx-border-color: #3498DB; /* Change border color when focused */
+}
+
+/* Set the background color of the entire application */
+#AnchorPane {
+    -fx-background-color: #2ECC71; /* Green background color */
+}
+
+.movie-card {
+    -fx-background-color: #3E2723;
+    -fx-border-color: #795548;
+    -fx-border-width: 2;
+    -fx-border-radius: 10; /* Adjust the border-radius for curved corners */
+    -fx-padding: 10;
+}
+
+.movie-card Label {
+    -fx-text-fill: white;
+    -fx-font-size: 14; /* Adjust the font size as needed */
+    -fx-font-family: "Arial"; /* Change the font family as needed */
+}
+
+#loadMoreButton, #quit {
+    -fx-min-width: 200;
+    -fx-padding: 10 20;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+}
+
+#loadMoreButton {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+#quit {
+    -fx-background-color: #f34242;
+    -fx-text-fill: white;
+}
