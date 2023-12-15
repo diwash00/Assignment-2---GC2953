@@ -1,0 +1,33 @@
+#loadMoreButton {
+    -fx-background-color: #4CAF50; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+    -fx-min-width: 200; /* Minimum width of the button */
+}
+
+.movie-card {
+    -fx-background-color: #3E2723; /* Movie card background color */
+    -fx-border-color: #795548; /* Movie card border color */
+    -fx-border-width: 2; /* Movie card border width */
+    -fx-border-radius: 5; /* Movie card border radius */
+}
+
+.movie-card Label {
+    -fx-text-fill: white; /* Text color for labels inside movie cards */
+}
+
+#quit {
+    -fx-background-color: #f34242; /* Quit button background color */
+    -fx-text-fill: white; /* Quit button text color */
+    -fx-min-width: 200; /* Minimum width of the quit button */
+}
+
+#changeToPage {
+    -fx-background-color: #4CAF50; /* Change to Page button background color */
+    -fx-text-fill: white; /* Change to Page button text color */
+}
+
+#title {
+    -fx-background-color: #f34242; /* Title background color */
+    -fx-text-fill: white; /* Title text color */
+    -fx-min-width: 110; /* Minimum width of the title */
+}

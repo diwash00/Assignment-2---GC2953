@@ -5,14 +5,19 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.List;
 
 public class MovieListController {
@@ -29,6 +34,7 @@ public class MovieListController {
     private Button loadMoreButton;
     @FXML
     private Button quit;
+
 
     private ObservableList<JsonNode> movieList;
     private FilteredList<JsonNode> filteredMovies;
@@ -221,4 +227,7 @@ public class MovieListController {
     private void quitPage(){
         System.exit(0);
     }
+
+
+
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Importing necessary JavaFX components -->
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.URL?>
+
+<!-- Root AnchorPane for the Splash Screen -->
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.moviesexplorer.SplashController">
+    <children>
+        <!-- Label for the title of the application -->
+        <Label layoutX="250.0" layoutY="50.0" fx:id="title" text="Movies List Viewer" />
+
+        <!-- ImageView for displaying the application logo -->
+        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <!-- Loading the logo image from a file -->
+                <Image url="@logo.png" />
+            </image>
+        </ImageView>
+
+        <!-- Button to transition to the Main Screen -->
+        <Button layoutX="250.0" layoutY="300.0" fx:id="changeToPage" onAction="#nextPage" text="Go to Main Screen" />
+    </children>
+
+    <!-- Applying external stylesheet for styling -->
+    <stylesheets>
+        <URL value="@movies_list.css" />
+    </stylesheets>
+</AnchorPane>
